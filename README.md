@@ -1,209 +1,179 @@
-# Awesome-CLI-Developer-Tools
-
-## Top CLI Developer Tools Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Terminal Emulators, Shell Enhancement & Cross-Platform SSH Management*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **CLI Developer Tools**. These tools enable developers to work more efficiently in the terminal—from GPU-accelerated terminal emulators and AI-powered command assistance to cross-platform SSH session managers and shell productivity utilities.
-
-
-
-**Examples** include Termius, Warp, iTerm2, Hyper, Alacritty, Kitty, Windows Terminal, Royal TS, MobaXterm, and SecureCRT (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, terminal enhancement, and open shell tooling—ideal for developers, system administrators, and organizations seeking transparent, vendor-independent CLI infrastructure.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[SecureCRT](https://www.vandyke.com/products/securecrt/)**  
-
-  **Rock-solid terminal emulation for computing professionals** . **The enterprise standard for secure remote access** with **advanced session management**, **file transfer**, and **data tunneling** . Features **keyword highlighting**, **Command Manager**, and **local shell sessions** . **The most mature commercial terminal emulator** for IT professionals managing large server estates .
-
-
-
-- **[Termius](https://termius.com/)**  
-
-  **Cross-platform SSH client with cloud sync** . Features **command autocomplete**, **snippets**, **port forwarding**, and **SFTP** . **Syncs across Windows, Mac, Linux, iOS, and Android** . **The most polished commercial SSH client** for developers who work across multiple devices.
-
-
-
-- **[Royal TS](https://www.royalapps.com/)**  
-
-  **Cross-platform connection management** for RDP, VNC, SSH, SFTP, and more . **The enterprise standard** for Windows-centric environments requiring unified remote access.
-
-
-
-- **[MobaXterm](https://mobaxterm.mobatek.net/)**  
-
-  **Enhanced Windows terminal with X11 server, SSH, RDP, VNC, and FTP** . **The most feature-complete Windows terminal** for remote access . **Free Home Edition** available; **Professional Edition** for commercial use .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Warp](https://github.com/warpdotdev/warp)**  
-
-  **The modern, AI-integrated terminal and development platform** (AGPL) . **100,000+ GitHub stars** after open-sourcing in April 2026—one of the fastest-growing repositories in GitHub history . **Built in Rust** for performance with **AI-powered command suggestions**, **agentic workflows**, and **collaborative features** . **Backed by OpenAI** with Sam Altman as an investor—the new agent-based workflow is directly driven by GPT models . **Used by 700,000+ developers** from leading enterprises . **The reference implementation for AI-native terminals**.
-
-
-
-- **[iTerm2](https://github.com/gnachman/iTerm2)**  
-
-  **A terminal emulator for Mac OS X that does amazing things** (GPL-2.0) . **18,000+ GitHub stars** . **The standard terminal for macOS power users**—**24-bit color**, **marked profiles**, **triggers**, **inline images** (including animated GIFs), **search**, **autocomplete**, and **split panes** . **The most feature-rich open-source macOS terminal**.
-
-
-
-- **[Alacritty](https://github.com/alacritty/alacritty)**  
-
-  **Cross-platform, GPU-accelerated terminal emulator** (Apache-2.0) . **60,000+ GitHub stars** . **The fastest terminal available**—**GPU rendering with minimal resource usage**. **Focuses on performance and simplicity**—configuration via YAML, no tabs or splits by default (use tmux). **The best choice for developers who prioritize speed above all else**.
-
-
-
-- **[Kitty](https://github.com/kovidgoyal/kitty)**  
-
-  **Cross-platform, fast, feature-rich, GPU-based terminal** (GPL-3.0) . **34,000+ GitHub stars** . **The most feature-complete GPU terminal**—**tabs, splits, sessions, remote control, and image protocol**. **Supports ligatures and Unicode**. **The best balance of performance and features** among GPU terminals.
-
-
-
-- **[Windows Terminal](https://github.com/microsoft/terminal)**  
-
-  **The new Windows Terminal and the original Windows console host** (MIT) . **100,000+ GitHub stars** . **The modern Windows terminal**—**tabs, panes, Unicode/UTF-8 support, GPU-accelerated text rendering, and customizable themes**. **The default choice for Windows developers**.
-
-
-
-- **[Hyper](https://github.com/vercel/hyper)**  
-
-  **A terminal built on web technologies** (MIT) . **44,000+ GitHub stars** . **The most customizable terminal**—**built with Electron, React, and TypeScript**, enabling plugins and themes via npm. **Supports extensions**. **Best for**: developers who want to customize their terminal with web technologies.
-
-
-
-- **[Tabby](https://github.com/Eugeny/tabby)**  
-
-  **A terminal for a more modern age** (MIT) . **57,000+ GitHub stars** . **The open-source alternative to Termius**—**cross-platform SSH client with local shell support, serial connections, port forwarding, and SFTP**. **No account required**—privacy-focused. **The best choice for developers who want Termius features without cloud dependency** .
-
-
-
-- **[WezTerm](https://github.com/wez/wezterm)**  
-
-  **A GPU-accelerated cross-platform terminal emulator and multiplexer** (MIT) . **Written in Rust** with **Lua configuration**, **multiplexer built in**, and **supports ligatures, images, and hyperlinks**.
-
-
-
-- **[Ghostty](https://github.com/ghostty-org/ghostty)**  
-
-  **Fast, feature-rich, and cross-platform terminal emulator** (MIT) . **The newest high-performance terminal** from Mitchell Hashimoto (HashiCorp co-founder). **Focus on speed and native platform integration**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[tmux](https://github.com/tmux/tmux)** — Terminal multiplexer (ISC) . **The standard for session persistence and window management** in the terminal.
-
-- **[Zellij](https://github.com/zellij-org/zellij)** — Terminal workspace and multiplexer (MIT) . **The modern tmux alternative** with layouts, plugins, and session management.
-
-- **[Starship](https://github.com/starship/starship)** — Cross-shell prompt (ISC) . **The most popular shell prompt**—minimal, fast, and infinitely customizable.
-
-- **[fzf](https://github.com/junegunn/fzf)** — Command-line fuzzy finder (MIT) . **The standard for interactive filtering** in the terminal.
-
-- **[ripgrep](https://github.com/BurntSushi/ripgrep)** — Fast recursive search (MIT/Unlicense) . **The fastest grep alternative**.
-
-- **[bat](https://github.com/sharkdp/bat)** — Cat clone with syntax highlighting (MIT/Apache-2.0) . **The modern cat replacement**.
-
-- **[eza](https://github.com/eza-community/eza)** — Modern replacement for ls (MIT) . **The most feature-complete ls alternative**.
-
-- **[zoxide](https://github.com/ajeetdsouza/zoxide)** — Smarter cd command (MIT) . **The standard for directory jumping**.
-
-- **[lazygit](https://github.com/jesseduffield/lazygit)** — Terminal UI for Git (MIT) . **The most popular Git TUI**.
-
-- **[delta](https://github.com/dandavison/delta)** — Syntax-highlighting pager for Git (MIT) . **The standard for beautiful diffs**.
-
-- **[GitHub CLI](https://github.com/cli/cli)** — GitHub's official command line tool (MIT) . **The standard for GitHub operations from the terminal**.
-
-- **[httpie](https://github.com/httpie/cli)** — User-friendly HTTP client CLI (BSD-3-Clause) . **The modern curl alternative**.
-
-- Community **n8n** workflows for CLI tool automation and terminal session alerting.
-
-
-
-**Frameworks for building custom systems**: Combine **Alacritty** or **Kitty** for GPU-accelerated terminal performance with **tmux** or **Zellij** for session management, **Starship** for shell prompts, **fzf** and **ripgrep** for productivity, and **Tabby** for SSH management—creating a comprehensive CLI developer toolkit.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Terminal emulators and CLI tools handling SSH keys and credentials must follow security best practices, including key management and session encryption.
-
-- **Open-source CLI tools are mature and production-ready.** Alacritty and Kitty provide GPU-accelerated performance . Windows Terminal is the modern Windows standard . Tabby offers a privacy-focused Termius alternative . **These are genuine alternatives to commercial platforms.**
-
-- **The terminal landscape shifted dramatically in 2026.** Warp open-sourced its core product in April 2026, reaching **100,000+ stars** and backed by OpenAI . **The AI-native terminal is now a real category**, not a novelty.
-
-- **GPU acceleration is the performance baseline.** Alacritty, Kitty, WezTerm, and Ghostty all render text on the GPU. **If you're still using a CPU-rendered terminal, you're leaving performance on the table.**
-
-- **Session persistence requires a multiplexer.** Terminal emulators like Alacritty and Kitty focus on rendering—**use tmux or Zellij for session persistence, window management, and remote reconnection**. **This separation is by design, not a limitation.**
-
-- Self-hosted open-source solutions require proper shell configuration, font setup (Nerd Fonts for icons), and ongoing maintenance. **Terminal configuration is deeply personal**—invest time in your dotfiles and they'll pay dividends for years.
-
-
+# ⚡ Awesome CLI Developer Tools
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome CLI Developer Tools Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLI-Developer-Tools?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CLI-Developer-Tools?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-CLI-Developer-Tools" alt="GitHub issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 🌟 Overview & Ecosystem
 
+> **A curated, comprehensive catalog of enterprise SaaS platforms and leading open-source CLI developer tools.**  
+> *Targeted at modern terminal emulators, GPU-accelerated shell environments, cross-platform SSH/SFTP session managers, terminal multiplexers, and high-performance command-line utilities.*
 
-**Made for developers, system administrators, and organizations building transparent CLI tooling solutions.**  
+Whether you are configuring a blazingly fast local development workflow, running multi-cloud server administration, or deploying agentic AI terminal workflows, this guide indexes the absolute best command-line utilities and terminal software available today.
 
-Let's make CLI Developer Tools more open, data-driven, and AI-native.
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [🚀 Top Open-Source GitHub Projects](#-top-open-source-github-projects)
+  - [🖥️ Modern Terminal Emulators](#️-modern-terminal-emulators)
+  - [🪟 Terminal Multiplexers & Session Managers](#-terminal-multiplexers--session-managers)
+  - [🐚 Shells & Prompt Engines](#-shells--prompt-engines)
+  - [⚡ Blazing-Fast CLI Utilities & Navigators](#-blazing-fast-cli-utilities--navigators)
+  - [🛠️ TUI Frameworks & System Monitors](#️-tui-frameworks--system-monitors)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global terminal emulator and remote connectivity software market is estimated at **$4.2 billion to $5.5 billion**, expanding at a steady CAGR of ~6.8% alongside rapid enterprise cloud migration and remote IT administration demands. 
+
+The developer tools sector is **highly fragmented and community-driven** rather than a winner-take-all monopoly: while legacy commercial vendors maintain consolidated footholds in compliance-driven corporate environments, modern software engineers and DevOps professionals heavily favor open-source, modular, and GPU-accelerated utilities (Rust/Go), swapping and combining distinct terminal components (multiplexers, fuzzy finders, custom shells) to match personal workflows.
+
+---
+
+## 💼 SaaS & Commercial Hosted Platforms
+
+The table below lists leading commercial SSH clients, remote desktop managers, and enterprise terminal suites. Sorted by company size and market valuation in descending order.
+
+| Product | Description | Valuation / Scale | Starting Price | Free Tier Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[SecureCRT](https://www.vandyke.com/products/securecrt/)** | Enterprise-grade secure remote access, terminal emulation, rock-solid session management, and data tunneling. | **~$100M+ est. valuation** ($25M–$34M annual revenue; mature bootstrapped leader) | **$119.00 / license** (perpetual license with 1-year updates & support) | **30-day fully functional free trial** (unrestricted access to all sessions and automation features during evaluation) |
+| **[Termius](https://termius.com/)** | Modern cross-platform SSH, SFTP, and Mosh client featuring encrypted cloud vault sync, snippets, and mobile access. | **~$20M–$35M est. valuation** (~$4M ARR; backed by Seed institutional VC) | **$10.00 / month** (billed annually for Pro individual plan) | **Free Starter Plan forever** (limited to single local device vault; no cross-device cloud sync or automated port forwarding) |
+| **[MobaXterm](https://mobaxterm.mobatek.net/)** | All-in-one Windows terminal suite with integrated X11 server, tabbed SSH, SFTP, RDP, VNC, and portable toolsets. | **~$10M–$15M est. valuation** (~$1.5M annual revenue; bootstrapped French ISV) | **$69.00 / user** (perpetual license for Professional Edition with 1-year maintenance) | **Home Edition (Free forever)** (restricted to 14 maximum saved sessions, 2 simultaneous SSH tunnels, and 4 macros) |
+| **[Royal TS](https://www.royalapps.com/)** | Cross-platform multi-protocol connection manager supporting RDP, VNC, SSH, SFTP, credentials, and tasks. | **~$5M–$10M est. valuation** (Privately held Austrian ISV; independent niche leader) | **€49.00 (~$53 USD) / license** (perpetual single-user license with 1-year maintenance) | **Shareware Mode (Free forever)** (restricted to maximum 10 connections, 10 saved credentials, and only 1 open document at a time) |
+
+---
+
+## 🚀 Top Open-Source GitHub Projects
+
+All open-source repositories are indexed below and ranked by their **GitHub Star Count** (descending). Badges link directly to each repository's stargazers community.
+
+| Project | Stars | Language | Primary Category | Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Windows Terminal](https://github.com/microsoft/terminal)** | [![Stars](https://img.shields.io/github/stars/microsoft/terminal?style=social&color=white)](https://github.com/microsoft/terminal/stargazers) | C++ | Terminal Emulator | Modern, fast Windows terminal with tabs, panes, Unicode/UTF-8 support, and GPU text rendering. |
+| **[fzf](https://github.com/junegunn/fzf)** | [![Stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers) | Go | Interactive Search | Blazingly fast, general-purpose command-line fuzzy finder with zero dependencies. |
+| **[lazygit](https://github.com/jesseduffield/lazygit)** | [![Stars](https://img.shields.io/github/stars/jesseduffield/lazygit?style=social&color=white)](https://github.com/jesseduffield/lazygit/stargazers) | Go | Git TUI | Simple, keyboard-driven terminal UI for everyday Git workflows and branch staging. |
+| **[Tabby](https://github.com/Eugeny/tabby)** | [![Stars](https://img.shields.io/github/stars/Eugeny/tabby?style=social&color=white)](https://github.com/Eugeny/tabby/stargazers) | TypeScript | SSH & Terminal | Infinitely customizable cross-platform terminal & SSH client; self-hostable sync alternative to Termius. |
+| **[ripgrep](https://github.com/BurntSushi/ripgrep)** | [![Stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=social&color=white)](https://github.com/BurntSushi/ripgrep/stargazers) | Rust | Code Search | Ultrafast line-oriented recursive regex search tool that respects `.gitignore` rules automatically. |
+| **[Alacritty](https://github.com/alacritty/alacritty)** | [![Stars](https://img.shields.io/github/stars/alacritty/alacritty?style=social&color=white)](https://github.com/alacritty/alacritty/stargazers) | Rust | Terminal Emulator | Lightweight, GPU-accelerated terminal emulator focused on extreme rendering performance and simplicity. |
+| **[Warp](https://github.com/warpdotdev/warp)** | [![Stars](https://img.shields.io/github/stars/warpdotdev/warp?style=social&color=white)](https://github.com/warpdotdev/warp/stargazers) | Rust | AI Terminal | Modern agentic development environment and AI-native terminal with block-based commands and workflow sharing. |
+| **[Ghostty](https://github.com/ghostty-org/ghostty)** | [![Stars](https://img.shields.io/github/stars/ghostty-org/ghostty?style=social&color=white)](https://github.com/ghostty-org/ghostty/stargazers) | Zig | Terminal Emulator | Fast, feature-rich terminal emulator with native platform UI integration and GPU acceleration. |
+| **[bat](https://github.com/sharkdp/bat)** | [![Stars](https://img.shields.io/github/stars/sharkdp/bat?style=social&color=white)](https://github.com/sharkdp/bat/stargazers) | Rust | CLI Utility | Modern `cat` clone with syntax highlighting, Git modifications integration, and automatic paging. |
+| **[Starship](https://github.com/starship/starship)** | [![Stars](https://img.shields.io/github/stars/starship/starship?style=social&color=white)](https://github.com/starship/starship/stargazers) | Rust | Prompt Engine | Minimal, ultra-fast, and infinitely customizable cross-shell prompt for any interpreter. |
+| **[tmux](https://github.com/tmux/tmux)** | [![Stars](https://img.shields.io/github/stars/tmux/tmux?style=social&color=white)](https://github.com/tmux/tmux/stargazers) | C | Multiplexer | The battle-tested terminal multiplexer standard for session detachment, window tiling, and remote persistence. |
+| **[GitHub CLI](https://github.com/cli/cli)** | [![Stars](https://img.shields.io/github/stars/cli/cli?style=social&color=white)](https://github.com/cli/cli/stargazers) | Go | Developer Tool | Official GitHub CLI bringing pull requests, issues, releases, and GitHub Actions to your terminal. |
+| **[Bubble Tea](https://github.com/charmbracelet/bubbletea)** | [![Stars](https://img.shields.io/github/stars/charmbracelet/bubbletea?style=social&color=white)](https://github.com/charmbracelet/bubbletea/stargazers) | Go | TUI Framework | The Elm-architecture TUI framework powering modern rich command-line interfaces. |
+| **[fd](https://github.com/sharkdp/fd)** | [![Stars](https://img.shields.io/github/stars/sharkdp/fd?style=social&color=white)](https://github.com/sharkdp/fd/stargazers) | Rust | File Search | Simple, fast, and user-friendly alternative to `find` with colored output and smart case sensitivity. |
+| **[Hyper](https://github.com/vercel/hyper)** | [![Stars](https://img.shields.io/github/stars/vercel/hyper?style=social&color=white)](https://github.com/vercel/hyper/stargazers) | TypeScript | Terminal Emulator | Electron and Web-technology-powered extensible terminal emulator with an extensive npm plugin ecosystem. |
+| **[Nushell](https://github.com/nushell/nushell)** | [![Stars](https://img.shields.io/github/stars/nushell/nushell?style=social&color=white)](https://github.com/nushell/nushell/stargazers) | Rust | Shell | A modern shell that treats command output as structured tables and data objects rather than raw strings. |
+| **[zoxide](https://github.com/ajeetdsouza/zoxide)** | [![Stars](https://img.shields.io/github/stars/ajeetdsouza/zoxide?style=social&color=white)](https://github.com/ajeetdsouza/zoxide/stargazers) | Rust | Navigation | Smarter `cd` command that remembers your habits to jump across nested directories in a few keystrokes. |
+| **[HTTPie CLI](https://github.com/httpie/cli)** | [![Stars](https://img.shields.io/github/stars/httpie/cli?style=social&color=white)](https://github.com/httpie/cli/stargazers) | Python | HTTP Client | Human-friendly command-line HTTP client with formatted JSON output, syntax coloring, and persistent sessions. |
+| **[Zellij](https://github.com/zellij-org/zellij)** | [![Stars](https://img.shields.io/github/stars/zellij-org/zellij?style=social&color=white)](https://github.com/zellij-org/zellij/stargazers) | Rust | Multiplexer | Modern terminal workspace and multiplexer featuring built-in layout engines and WebAssembly plugins. |
+| **[Kitty](https://github.com/kovidgoyal/kitty)** | [![Stars](https://img.shields.io/github/stars/kovidgoyal/kitty?style=social&color=white)](https://github.com/kovidgoyal/kitty/stargazers) | Python/C | Terminal Emulator | Blazing-fast GPU-rendered terminal emulator supporting ligatures, graphics protocols, and scriptable layouts. |
+| **[btop](https://github.com/aristocratos/btop)** | [![Stars](https://img.shields.io/github/stars/aristocratos/btop?style=social&color=white)](https://github.com/aristocratos/btop/stargazers) | C++ | Resource Monitor | Aesthetic and responsive terminal monitor for CPU, memory, disks, network, and process management. |
+| **[fish shell](https://github.com/fish-shell/fish-shell)** | [![Stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social&color=white)](https://github.com/fish-shell/fish-shell/stargazers) | Rust | Shell | Smart and user-friendly interactive shell with autosuggestions, syntax highlighting, and zero setup. |
+| **[delta](https://github.com/dandavison/delta)** | [![Stars](https://img.shields.io/github/stars/dandavison/delta?style=social&color=white)](https://github.com/dandavison/delta/stargazers) | Rust | Git Pager | Beautiful syntax-highlighting pager for Git, diff, and grep outputs with side-by-side view capabilities. |
+| **[Atuin](https://github.com/atuinsh/atuin)** | [![Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=social&color=white)](https://github.com/atuinsh/atuin/stargazers) | Rust | Shell History | Replaces standard shell history with an encrypted SQLite database and optional end-to-end sync. |
+| **[WezTerm](https://github.com/wez/wezterm)** | [![Stars](https://img.shields.io/github/stars/wez/wezterm?style=social&color=white)](https://github.com/wez/wezterm/stargazers) | Rust | Terminal Emulator | GPU-accelerated cross-platform terminal and multiplexer configured entirely via expressive Lua scripts. |
+| **[eza](https://github.com/eza-community/eza)** | [![Stars](https://img.shields.io/github/stars/eza-community/eza?style=social&color=white)](https://github.com/eza-community/eza/stargazers) | Rust | CLI Utility | Modern, maintained replacement for `ls` featuring file icons, Git status indicators, and tree views. |
+| **[iTerm2](https://github.com/gnachman/iTerm2)** | [![Stars](https://img.shields.io/github/stars/gnachman/iTerm2?style=social&color=white)](https://github.com/gnachman/iTerm2/stargazers) | Objective-C | Terminal Emulator | The gold standard macOS terminal emulator featuring split panes, triggers, inline images, and shell integration. |
+| **[navi](https://github.com/denisidoro/navi)** | [![Stars](https://img.shields.io/github/stars/denisidoro/navi?style=social&color=white)](https://github.com/denisidoro/navi/stargazers) | Rust | Cheatsheet | Interactive CLI cheatsheet tool that prompts for arguments before running complex terminal commands. |
+| **[sd](https://github.com/chmln/sd)** | [![Stars](https://img.shields.io/github/stars/chmln/sd?style=social&color=white)](https://github.com/chmln/sd/stargazers) | Rust | CLI Utility | Intuitive find & replace command-line tool designed as a user-friendly, regex-aware alternative to `sed`. |
+| **[gdu](https://github.com/dundee/gdu)** | [![Stars](https://img.shields.io/github/stars/dundee/gdu?style=social&color=white)](https://github.com/dundee/gdu/stargazers) | Go | Disk Analyzer | Fast disk usage analyzer with an interactive console interface designed especially for SSD drives. |
+
+---
+
+### 🖥️ Modern Terminal Emulators
+- **[Windows Terminal](https://github.com/microsoft/terminal)** — The standard for Windows, supporting tabs, panes, and GPU rendering.
+- **[Alacritty](https://github.com/alacritty/alacritty)** — The lightweight Rust-based champion of raw performance and minimalist footprint.
+- **[Warp](https://github.com/warpdotdev/warp)** — The AI-native terminal reinventing CLI collaboration and agentic prompt assistance.
+- **[Ghostty](https://github.com/ghostty-org/ghostty)** — High-performance native UI terminal with GPU acceleration crafted by Mitchell Hashimoto.
+- **[Tabby](https://github.com/Eugeny/tabby)** — Multi-protocol terminal and connection manager with integrated SFTP and serial support.
+- **[Kitty](https://github.com/kovidgoyal/kitty)** — GPU-accelerated power-tool with rich image protocol, tabs, and tiling.
+- **[WezTerm](https://github.com/wez/wezterm)** — Highly programmable terminal emulator with embedded Lua configuration and multiplexing.
+- **[iTerm2](https://github.com/gnachman/iTerm2)** — Comprehensive and battle-tested terminal designed specifically for macOS power users.
+- **[Hyper](https://github.com/vercel/hyper)** — Clean, extensible terminal constructed on Electron, React, and web technologies.
+
+### 🪟 Terminal Multiplexers & Session Managers
+- **[tmux](https://github.com/tmux/tmux)** — The ubiquitous terminal multiplexer for long-running sessions, windows, and detachability.
+- **[Zellij](https://github.com/zellij-org/zellij)** — Modern Rust-powered workspace with intuitive UI ribbons, tabs, and WebAssembly plugin extensions.
+
+### 🐚 Shells & Prompt Engines
+- **[Starship](https://github.com/starship/starship)** — Universal, fast prompt engine showing Git branches, language versions, and system stats.
+- **[Nushell](https://github.com/nushell/nushell)** — Data-first shell transforming pipelines into queryable structured tables.
+- **[fish shell](https://github.com/fish-shell/fish-shell)** — Intuitive command-line shell with syntax highlighting and autosuggestions out of the box.
+- **[Atuin](https://github.com/atuinsh/atuin)** — Magically enhances shell history with search filters, SQLite persistence, and sync.
+
+### ⚡ Blazing-Fast CLI Utilities & Navigators
+- **[fzf](https://github.com/junegunn/fzf)** — General-purpose command-line fuzzy finder for commands, files, and Git branches.
+- **[ripgrep](https://github.com/BurntSushi/ripgrep)** — Ultra-fast regex file searcher outperforming grep and ack.
+- **[bat](https://github.com/sharkdp/bat)** — Feature-rich replacement for `cat` with automatic syntax highlighting and Git diff tags.
+- **[fd](https://github.com/sharkdp/fd)** — User-friendly and faster alternative to `find`.
+- **[zoxide](https://github.com/ajeetdsouza/zoxide)** — Fast directory jumping based on frequency and recency.
+- **[eza](https://github.com/eza-community/eza)** — Feature-packed modern replacement for `ls`.
+- **[delta](https://github.com/dandavison/delta)** — Side-by-side terminal syntax-highlighting pager for Git.
+- **[sd](https://github.com/chmln/sd)** — Intuitive search and replace utility replacing sed commands.
+- **[navi](https://github.com/denisidoro/navi)** — Interactive cheatsheet tool providing quick access to complex commands.
+- **[HTTPie CLI](https://github.com/httpie/cli)** — Modern API client designed for interactive HTTP exploration.
+- **[GitHub CLI](https://github.com/cli/cli)** — Manage GitHub pull requests, issues, and repositories right in your terminal.
+
+### 🛠️ TUI Frameworks & System Monitors
+- **[Bubble Tea](https://github.com/charmbracelet/bubbletea)** — The premier framework for writing interactive terminal user interfaces in Go.
+- **[btop](https://github.com/aristocratos/btop)** — Beautiful resource monitor with interactive graphs for CPU, memory, and disks.
+- **[lazygit](https://github.com/jesseduffield/lazygit)** — Effortlessly manage Git branches, commits, stashes, and rebases via keyboard.
+- **[gdu](https://github.com/dundee/gdu)** — Console disk usage scanner built for rapid SSD indexation.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-CLI-Developer-Tools&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-CLI-Developer-Tools&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find **Awesome CLI Developer Tools** useful or time-saving for your daily terminal setup:
+
+- ⭐ **Star this repository** to help other developers discover modern CLI tools.
+- 🍴 **Fork and contribute** your favorite utilities, terminal themes, or configurations.
+- 📣 **Share this list** with your colleagues, DevOps teams, and developer communities.
+- ☕ **Buy a coffee & sponsor ongoing curation**: Support this project directly on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome and actively encouraged! To submit a new tool:
+
+1. **Fork** this repository.
+2. Ensure the tool is active, well-maintained, and adds distinct value to CLI developers.
+3. Add your entry in alphabetical or appropriate category order matching the table format.
+4. Include official links, primary language, and exact pricing/license specifications.
+5. Open a **Pull Request** with a concise description of why the tool should be added.
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is independently curated by the community for informational and educational purposes; no direct endorsement is implied.
+- Always review credential handling, telemetry policies, and key storage practices when deploying terminal clients and remote SSH management suites.

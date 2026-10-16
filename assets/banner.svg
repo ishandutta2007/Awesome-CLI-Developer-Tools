@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b263b"/>
+    </linearGradient>
+
+    <!-- Animated Accent Gradients -->
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <linearGradient id="text-shimmer" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="60%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+      <animate attributeName="x1" from="-100%" to="100%" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="100%" to="300%" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Background Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace;
+      font-weight: 500;
+      font-size: 15px;
+      fill: #94a3b8;
+      letter-spacing: 0.5px;
+    }
+    .badge-text {
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .prompt-cursor {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .floating-dot {
+      animation: float-around 10s ease-in-out infinite alternate;
+    }
+    @keyframes float-around {
+      0% { transform: translateY(0px) scale(1); opacity: 0.3; }
+      50% { transform: translateY(-12px) scale(1.15); opacity: 0.6; }
+      100% { transform: translateY(6px) scale(0.95); opacity: 0.3; }
+    }
+    .wave-line {
+      stroke-dasharray: 8 6;
+      animation: dash 30s linear infinite;
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -1000; }
+    }
+  </style>
+
+  <!-- Deep Canvas Container -->
+  <rect width="920" height="300" rx="16" fill="url(#bg-grad)"/>
+  <rect width="920" height="300" rx="16" fill="url(#grid)"/>
+
+  <!-- Subtle Ambient Glow Orbs in Background -->
+  <circle cx="150" cy="60" r="120" fill="#00f2fe" opacity="0.08" filter="url(#glow)" />
+  <circle cx="780" cy="240" r="140" fill="#a855f7" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Animated Ambient Streamers -->
+  <path class="wave-line" d="M -20 180 Q 200 120 460 210 T 940 140" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.25"/>
+  <path class="wave-line" d="M -20 230 Q 260 290 520 170 T 940 220" fill="none" stroke="#a855f7" stroke-width="1.2" opacity="0.2"/>
+
+  <!-- Floating Dynamic Tech Particles -->
+  <circle class="floating-dot" cx="80" cy="220" r="4" fill="#38bdf8" style="animation-delay: 0s;"/>
+  <circle class="floating-dot" cx="240" cy="45" r="3" fill="#a855f7" style="animation-delay: 1.5s;"/>
+  <circle class="floating-dot" cx="720" cy="65" r="3.5" fill="#34d399" style="animation-delay: 3s;"/>
+  <circle class="floating-dot" cx="850" cy="180" r="4.5" fill="#f43f5e" style="animation-delay: 2.2s;"/>
+
+  <!-- Top Terminal Bar Mockup -->
+  <g transform="translate(40, 32)">
+    <circle cx="10" cy="10" r="6" fill="#ef4444"/>
+    <circle cx="28" cy="10" r="6" fill="#f59e0b"/>
+    <circle cx="46" cy="10" r="6" fill="#10b981"/>
+    <rect x="70" y="2" width="220" height="16" rx="4" fill="#1e293b" opacity="0.7"/>
+    <text x="80" y="14" font-family="monospace" font-size="10" fill="#64748b">ishandutta2007/cli-tools</text>
+  </g>
+
+  <!-- Title & Subtitle (High Contrast, Guaranteed Foreground) -->
+  <g id="header-text" transform="translate(50, 118)">
+    <text class="title" fill="url(#text-shimmer)">Awesome CLI Developer Tools</text>
+    <text class="subtitle" y="38">
+      <tspan fill="#38bdf8">&gt;_</tspan> Modern Terminal Emulators, GPU Shells, Multiplexers &amp; SSH Managers<tspan class="prompt-cursor" fill="#38bdf8">█</tspan>
+    </text>
+  </g>
+
+  <!-- Interactive Ecosystem Pill Badges (Foreground) -->
+  <g transform="translate(50, 202)">
+    <!-- Pill 1: GPU Accelerated -->
+    <rect x="0" y="0" width="160" height="34" rx="17" fill="#0f172a" stroke="#0284c7" stroke-width="1.2"/>
+    <circle cx="16" cy="17" r="4.5" fill="#38bdf8"/>
+    <text class="badge-text" x="29" y="21" fill="#e2e8f0">GPU Accelerated</text>
+
+    <!-- Pill 2: AI-Powered CLI -->
+    <rect x="175" y="0" width="145" height="34" rx="17" fill="#0f172a" stroke="#7c3aed" stroke-width="1.2"/>
+    <circle cx="191" cy="17" r="4.5" fill="#c084fc"/>
+    <text class="badge-text" x="204" y="21" fill="#e2e8f0">AI-Native Shells</text>
+
+    <!-- Pill 3: SSH & Multiplexers -->
+    <rect x="335" y="0" width="175" height="34" rx="17" fill="#0f172a" stroke="#059669" stroke-width="1.2"/>
+    <circle cx="351" cy="17" r="4.5" fill="#34d399"/>
+    <text class="badge-text" x="364" y="21" fill="#e2e8f0">SSH &amp; Multiplexers</text>
+
+    <!-- Pill 4: Rust & Go Utilities -->
+    <rect x="525" y="0" width="165" height="34" rx="17" fill="#0f172a" stroke="#d97706" stroke-width="1.2"/>
+    <circle cx="541" cy="17" r="4.5" fill="#fbbf24"/>
+    <text class="badge-text" x="554" y="21" fill="#e2e8f0">Rust &amp; Go Utilities</text>
+
+    <!-- Pill 5: Cross-Platform -->
+    <rect x="705" y="0" width="145" height="34" rx="17" fill="#0f172a" stroke="#e11d48" stroke-width="1.2"/>
+    <circle cx="721" cy="17" r="4.5" fill="#fb7185"/>
+    <text class="badge-text" x="734" y="21" fill="#e2e8f0">Cross-Platform</text>
+  </g>
+
+  <!-- Border Accent -->
+  <rect x="0.5" y="0.5" width="919" height="299" rx="15.5" fill="none" stroke="#334155" stroke-width="1" opacity="0.6"/>
+</svg>
