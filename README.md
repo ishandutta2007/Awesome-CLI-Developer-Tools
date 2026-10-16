@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLI-Developer-Tools?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLI-Developer-Tools?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CLI-Developer-Tools?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-CLI-Developer-Tools" alt="GitHub issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-Developer-Tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
@@ -65,9 +65,9 @@ The table below lists leading commercial SSH clients, remote desktop managers, a
 
 ## 🚀 Top Open-Source GitHub Projects
 
-All open-source repositories are indexed below and ranked by their **GitHub Star Count** (descending). Badges link directly to each repository's stargazers community.
+All open-source repositories are indexed below and ranked by their **GitHub Stars_Count** (descending). Badges link directly to each repository's stargazers community.
 
-| Project | Stars | Language | Primary Category | Highlights |
+| Project | GitHub_Stars | Language | Primary Category | Highlights |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Windows Terminal](https://github.com/microsoft/terminal)** | [![Stars](https://img.shields.io/github/stars/microsoft/terminal?style=social&color=white)](https://github.com/microsoft/terminal/stargazers) | C++ | Terminal Emulator | Modern, fast Windows terminal with tabs, panes, Unicode/UTF-8 support, and GPU text rendering. |
 | **[fzf](https://github.com/junegunn/fzf)** | [![Stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers) | Go | Interactive Search | Blazingly fast, general-purpose command-line fuzzy finder with zero dependencies. |
