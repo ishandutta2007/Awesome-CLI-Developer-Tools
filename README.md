@@ -135,6 +135,7 @@ All open-source repositories are indexed below and ranked by their **GitHub Star
 - **[navi](https://github.com/denisidoro/navi)** — Interactive cheatsheet tool providing quick access to complex commands.
 - **[HTTPie CLI](https://github.com/httpie/cli)** — Modern API client designed for interactive HTTP exploration.
 - **[GitHub CLI](https://github.com/cli/cli)** — Manage GitHub pull requests, issues, and repositories right in your terminal.
+- **[agent-qa](https://vostride.com)** — TypeScript CLI for natural-language web, Android and iOS QA with memidex memory, reviewable self-improvement and run evidence (FSL-1.1-ALv2; $0 product fee for permitted use; model and infrastructure costs separate).
 
 ### 🛠️ TUI Frameworks & System Monitors
 - **[Bubble Tea](https://github.com/charmbracelet/bubbletea)** — The premier framework for writing interactive terminal user interfaces in Go.
